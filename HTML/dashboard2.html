@@ -53,7 +53,7 @@
           transform: rotate(0deg);
         }
       }
-      
+
       @keyframes sonar {
         0% {
           transform: scale(0.9);
@@ -84,13 +84,13 @@
         -o-transition: all 0.3s ease;
         transition: all 0.3s ease;
       }
-      
+
       /*----------------page-wrapper----------------*/
-      
+
       .page-wrapper {
         height: 100vh;
       }
-      
+
       .page-wrapper .theme {
         width: 40px;
         height: 40px;
@@ -98,17 +98,17 @@
         border-radius: 4px;
         margin: 2px;
       }
-      
+
       .page-wrapper .theme.chiller-theme {
         background: #1e2229;
       }
-      
+
       /*----------------toggeled sidebar----------------*/
-      
+
       .page-wrapper.toggled .sidebar-wrapper {
         left: 0px;
       }
-      
+
       @media screen and (min-width: 768px) {
         .page-wrapper.toggled .page-content {
           padding-left: 300px;
@@ -127,7 +127,7 @@
         left: -40px;
       }
       /*----------------sidebar-wrapper----------------*/
-      
+
       .sidebar-wrapper {
         width: 260px;
         height: 100%;
@@ -137,55 +137,55 @@
         left: -300px;
         z-index: 999;
       }
-      
+
       .sidebar-wrapper ul {
         list-style-type: none;
         padding: 0;
         margin: 0;
       }
-      
+
       .sidebar-wrapper a {
         text-decoration: none;
       }
-      
+
       /*----------------sidebar-content----------------*/
-      
+
       .sidebar-content {
         max-height: calc(100% - 30px);
         height: calc(100% - 30px);
         overflow-y: auto;
         position: relative;
       }
-      
+
       .sidebar-content.desktop {
         overflow-y: hidden;
       }
-      
+
       /*--------------------sidebar-brand----------------------*/
-      
+
       .sidebar-wrapper .sidebar-brand {
         padding: 10px 20px;
         display: flex;
         align-items: center;
       }
-      
+
       .sidebar-wrapper .sidebar-brand > a {
         text-transform: uppercase;
         font-weight: bold;
         flex-grow: 1;
       }
-      
+
       .sidebar-wrapper .sidebar-brand #close-sidebar {
         cursor: pointer;
         font-size: 20px;
       }
       /*--------------------sidebar-header----------------------*/
-      
+
       .sidebar-wrapper .sidebar-header {
         padding: 20px;
         overflow: hidden;
       }
-      
+
       .sidebar-wrapper .sidebar-header .user-pic {
         float: left;
         width: 60px;
@@ -194,55 +194,55 @@
         margin-right: 15px;
         overflow: hidden;
       }
-      
+
       .sidebar-wrapper .sidebar-header .user-pic img {
         object-fit: cover;
         height: 100%;
         width: 100%;
       }
-      
+
       .sidebar-wrapper .sidebar-header .user-info {
         float: left;
       }
-      
+
       .sidebar-wrapper .sidebar-header .user-info > span {
         display: block;
       }
-      
+
       .sidebar-wrapper .sidebar-header .user-info .user-role {
         font-size: 12px;
       }
-      
+
       .sidebar-wrapper .sidebar-header .user-info .user-status {
         font-size: 11px;
         margin-top: 4px;
       }
-      
+
       .sidebar-wrapper .sidebar-header .user-info .user-status i {
         font-size: 8px;
         margin-right: 4px;
         color: #5cb85c;
       }
-      
+
       /*-----------------------sidebar-search------------------------*/
-      
+
       .sidebar-wrapper .sidebar-search > div {
         padding: 10px 20px;
       }
-      
+
       /*----------------------sidebar-menu-------------------------*/
-      
+
       .sidebar-wrapper .sidebar-menu {
         padding-bottom: 10px;
       }
-      
+
       .sidebar-wrapper .sidebar-menu .header-menu span {
         font-weight: bold;
         font-size: 14px;
         padding: 15px 20px 5px 20px;
         display: inline-block;
       }
-      
+
       .sidebar-wrapper .sidebar-menu ul li a {
         display: inline-block;
         width: 100%;
@@ -250,7 +250,7 @@
         position: relative;
         padding: 8px 30px 8px 20px;
       }
-      
+
       .sidebar-wrapper .sidebar-menu ul li a i {
         margin-right: 10px;
         font-size: 12px;
@@ -260,12 +260,12 @@
         text-align: center;
         border-radius: 4px;
       }
-      
+
       .sidebar-wrapper .sidebar-menu ul li a:hover > i::before {
         display: inline-block;
         animation: swing ease-in-out 0.5s 1 alternate;
       }
-      
+
       .sidebar-wrapper .sidebar-menu .sidebar-dropdown > a:after {
         font-family: "Font Awesome 5 Free";
         font-weight: 900;
@@ -283,16 +283,16 @@
         right: 15px;
         top: 14px;
       }
-      
+
       .sidebar-wrapper .sidebar-menu .sidebar-dropdown .sidebar-submenu ul {
         padding: 5px 0;
       }
-      
+
       .sidebar-wrapper .sidebar-menu .sidebar-dropdown .sidebar-submenu li {
         padding-left: 25px;
         font-size: 13px;
       }
-      
+
       .sidebar-wrapper .sidebar-menu .sidebar-dropdown .sidebar-submenu li a:before {
         content: "\f111";
         font-family: "Font Awesome 5 Free";
@@ -306,38 +306,38 @@
         margin-right: 10px;
         font-size: 8px;
       }
-      
+
       .sidebar-wrapper .sidebar-menu ul li a span.label,
       .sidebar-wrapper .sidebar-menu ul li a span.badge {
         float: right;
         margin-top: 8px;
         margin-left: 5px;
       }
-      
+
       .sidebar-wrapper .sidebar-menu .sidebar-dropdown .sidebar-submenu li a .badge,
       .sidebar-wrapper .sidebar-menu .sidebar-dropdown .sidebar-submenu li a .label {
         float: right;
         margin-top: 0px;
       }
-      
+
       .sidebar-wrapper .sidebar-menu .sidebar-submenu {
         display: none;
       }
-      
+
       .sidebar-wrapper .sidebar-menu .sidebar-dropdown.active > a:after {
         transform: rotate(90deg);
         right: 17px;
       }
-      
+
       /*--------------------------side-footer------------------------------*/
-      
+
       .sidebar-footer {
         position: absolute;
         width: 100%;
         bottom: 0;
         display: flex;
       }
-      
+
       .sidebar-footer > a {
         flex-grow: 1;
         text-align: center;
@@ -345,12 +345,12 @@
         line-height: 30px;
         position: relative;
       }
-      
+
       .sidebar-footer > a .notification {
         position: absolute;
         top: 0;
       }
-      
+
       .badge-sonar {
         display: inline-block;
         background: #980303;
@@ -360,7 +360,7 @@
         position: absolute;
         top: 0;
       }
-      
+
       .badge-sonar:after {
         content: "";
         position: absolute;
@@ -373,26 +373,26 @@
         height: 100%;
         animation: sonar 1.5s infinite;
       }
-      
+
       /*--------------------------page-content-----------------------------*/
-      
+
       .page-wrapper .page-content {
         display: inline-block;
         width: 100%;
         padding-left: 0px;
         padding-top: 20px;
       }
-      
+
       .page-wrapper .page-content > div {
         padding: 0px 40px;
       }
-      
+
       .page-wrapper .page-content {
         overflow-x: hidden;
       }
-      
+
       /*------scroll bar---------------------*/
-      
+
       ::-webkit-scrollbar {
         width: 5px;
         height: 7px;
@@ -426,26 +426,26 @@
       ::-webkit-scrollbar-corner {
         background: transparent;
       }
-      
-      
+
+
       /*-----------------------------chiller-theme-------------------------------------------------*/
-      
+
       .chiller-theme .sidebar-wrapper {
           background: #31353D;
       }
-      
+
       .chiller-theme .sidebar-wrapper .sidebar-header,
       .chiller-theme .sidebar-wrapper .sidebar-search,
       .chiller-theme .sidebar-wrapper .sidebar-menu {
           border-top: 1px solid #3a3f48;
       }
-      
+
       .chiller-theme .sidebar-wrapper .sidebar-search input.search-menu,
       .chiller-theme .sidebar-wrapper .sidebar-search .input-group-text {
           border-color: transparent;
           box-shadow: none;
       }
-      
+
       .chiller-theme .sidebar-wrapper .sidebar-header .user-info .user-role,
       .chiller-theme .sidebar-wrapper .sidebar-header .user-info .user-status,
       .chiller-theme .sidebar-wrapper .sidebar-search input.search-menu,
@@ -455,7 +455,7 @@
       .chiller-theme .sidebar-footer>a {
           color: #818896;
       }
-      
+
       .chiller-theme .sidebar-wrapper .sidebar-menu ul li:hover>a,
       .chiller-theme .sidebar-wrapper .sidebar-menu .sidebar-dropdown.active>a,
       .chiller-theme .sidebar-wrapper .sidebar-header .user-info,
@@ -463,15 +463,15 @@
       .chiller-theme .sidebar-footer>a:hover i {
           color: #b8bfce;
       }
-      
+
       .page-wrapper.chiller-theme.toggled #close-sidebar {
           color: #000000;
       }
-      
+
       .page-wrapper.chiller-theme.toggled #close-sidebar:hover {
           color: #bdbdbd;
       }
-      
+
       .chiller-theme .sidebar-wrapper ul li:hover a i,
       .chiller-theme .sidebar-wrapper .sidebar-dropdown .sidebar-submenu li a:hover:before,
       .chiller-theme .sidebar-wrapper .sidebar-search input.search-menu:focus+span,
@@ -479,28 +479,28 @@
           color: #16c7ff;
           text-shadow:0px 0px 10px rgba(22, 199, 255, 0.5);
       }
-      
+
       .chiller-theme .sidebar-wrapper .sidebar-menu ul li a i,
       .chiller-theme .sidebar-wrapper .sidebar-menu .sidebar-dropdown div,
       .chiller-theme .sidebar-wrapper .sidebar-search input.search-menu,
       .chiller-theme .sidebar-wrapper .sidebar-search .input-group-text {
           background: #3a3f48;
       }
-      
+
       .chiller-theme .sidebar-wrapper .sidebar-menu .header-menu span {
           color: #6c7b88;
       }
-      
+
       .chiller-theme .sidebar-footer {
           background: #3a3f48;
           box-shadow: 0px -1px 5px #282c33;
           border-top: 1px solid #464a52;
       }
-      
+
       .chiller-theme .sidebar-footer>a:first-child {
           border-left: none;
       }
-      
+
       .chiller-theme .sidebar-footer>a:last-child {
           border-right: none;
       }
@@ -523,7 +523,7 @@
             <!-- Logo
             ============================= -->
             <a class="d-flex" href="index.html" title="Payyed - HTML Template"><img src="images/logo.png" alt="Payyed" /></a>
-            <!-- Logo end --> 
+            <!-- Logo end -->
           <div id="close-sidebar">
             <i class="fas fa-times"></i>
           </div>
@@ -550,53 +550,10 @@
             <li class="header-menu">
               <span>General</span>
             </li>
+
             <li class="sidebar-dropdown">
               <a href="#">
                 <i class="fa fa-tachometer-alt"></i>
-                <span>Item</span>
-                <span class="badge badge-pill badge-warning">New</span>
-              </a>
-              <div class="sidebar-submenu">
-                <ul>
-                  <li>
-                    <a href="#">Item 1
-                      <span class="badge badge-pill badge-success">Pro</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">Item 2</a>
-                  </li>
-                  <li>
-                    <a href="#">Item 3</a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li class="sidebar-dropdown">
-              <a href="#">
-                <i class="fa fa-shopping-cart"></i>
-                <span>Item</span>
-                <span class="badge badge-pill badge-danger">3</span>
-              </a>
-              <div class="sidebar-submenu">
-                <ul>
-                  <li>
-                    <a href="#">Item
-  
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">Item</a>
-                  </li>
-                  <li>
-                    <a href="#">Item</a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li class="sidebar-dropdown">
-              <a href="#">
-                <i class="far fa-gem"></i>
                 <span>Item</span>
               </a>
               <div class="sidebar-submenu">
@@ -651,50 +608,13 @@
                 </ul>
               </div>
             </li>
-            <li class="header-menu">
-              <span>Extra</span>
-            </li>
-            <li>
-              <a href="#">
-                <i class="fa fa-book"></i>
-                <span>link</span>
-                <span class="badge badge-pill badge-primary">trial</span>
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <i class="fa fa-calendar"></i>
-                <span>link</span>
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <i class="fa fa-folder"></i>
-                <span>link</span>
-              </a>
-            </li>
+
           </ul>
         </div>
         <!-- sidebar-menu  -->
       </div>
       <!-- sidebar-content  -->
-      <div class="sidebar-footer">
-        <a href="#">
-          <i class="fa fa-bell"></i>
-          <span class="badge badge-pill badge-warning notification">3</span>
-        </a>
-        <a href="#">
-          <i class="fa fa-envelope"></i>
-          <span class="badge badge-pill badge-success notification">7</span>
-        </a>
-        <a href="#">
-          <i class="fa fa-cog"></i>
-          <span class="badge-sonar"></span>
-        </a>
-        <a href="#">
-          <i class="fa fa-power-off"></i>
-        </a>
-      </div>
+
     </nav>
     <!-- sidebar-wrapper  -->
     <main class="page-content mr-0">
@@ -710,9 +630,9 @@
                       <a href="#" class="header-elements-toggle text-default d-md-none"><i class="icon-more"></i></a>
                     </div>
                   </div>
-          
+
                 </div>
-                <div class="header-column justify-content-end"> 
+                <div class="header-column justify-content-end">
                   <!-- My Profile
                   ============================== -->
                   <nav class="login-signup navbar navbar-expand">
@@ -752,18 +672,18 @@
                       </li>
                     </ul>
                   </nav>
-                  <!-- My Profile end --> 
+                  <!-- My Profile end -->
                 </div>
               </div>
           </header>
           <!-- Header End -->
-          
+
           <div id="content" class="py-3">
-              <div class="row"> 
+              <div class="row">
                 <!-- Left Panel
                 ============================================= -->
-                <aside class="col-lg-3"> 
-                  
+                <aside class="col-lg-3">
+
                   <!-- Profile Details
                   =============================== -->
                   <div class="bg-white shadow-sm rounded text-center p-3 mb-4">
@@ -775,8 +695,8 @@
                     <p class="text-3 font-weight-500 mb-2">Hello, Smith Rhodes</p>
                     <p class="mb-2"><a href="profile.html" class="text-5 text-light" data-toggle="tooltip" title="Edit Profile"><i class="fas fa-edit"></i></a></p>
                   </div>
-                  <!-- Profile Details End --> 
-                  
+                  <!-- Profile Details End -->
+
                   <!-- Available Balance
                   =============================== -->
                   <div class="bg-white shadow-sm rounded text-center p-3 mb-4">
@@ -786,8 +706,8 @@
                     <hr class="mx-n3">
                     <div class="d-flex"><a href="#" class="btn-link mr-auto">Withdraw</a> <a href="#" class="btn-link ml-auto">Deposit</a></div>
                   </div>
-                  <!-- Available Balance End --> 
-                  
+                  <!-- Available Balance End -->
+
                   <!-- Need Help?
                   =============================== -->
                   <div class="bg-white shadow-sm rounded text-center p-3 mb-4">
@@ -796,15 +716,15 @@
                     <p class="text-muted opacity-8 mb-4">Have questions or concerns regrading your account?<br>
                       Our experts are here to help!.</p>
                     <a href="#" class="btn btn-primary btn-block">Chate with Us</a> </div>
-                  <!-- Need Help? End --> 
-                  
+                  <!-- Need Help? End -->
+
                 </aside>
-                <!-- Left Panel End --> 
-                
+                <!-- Left Panel End -->
+
                 <!-- Middle Panel
                 ============================================= -->
-                <div class="col-lg-9"> 
-                  
+                <div class="col-lg-9">
+
                   <!-- Profile Completeness
                   =============================== -->
                   <div class="bg-white shadow-sm rounded p-4 mb-4">
@@ -833,13 +753,13 @@
                       </div>
                     </div>
                   </div>
-                  <!-- Profile Completeness End --> 
-                  
+                  <!-- Profile Completeness End -->
+
                   <!-- Recent Activity
                   =============================== -->
                   <div class="bg-white shadow-sm rounded py-4 mb-4">
                     <h3 class="text-5 font-weight-400 d-flex align-items-center px-4 mb-4">Recent Activity</h3>
-                    
+
                     <!-- Title
                     =============================== -->
                     <div class="transaction-title py-2 px-4">
@@ -850,8 +770,8 @@
                         <div class="col-3 col-sm-2 text-right">Amount</div>
                       </div>
                     </div>
-                    <!-- Title End --> 
-                    
+                    <!-- Title End -->
+
                     <!-- Transaction List
                     =============================== -->
                     <div class="transaction-list">
@@ -912,8 +832,8 @@
                         </div>
                       </div>
                     </div>
-                    <!-- Transaction List End --> 
-                    
+                    <!-- Transaction List End -->
+
                     <!-- Transaction Item Details Modal
                     =========================================== -->
                     <div id="transaction-detail" class="modal fade" role="dialog" aria-hidden="true">
@@ -964,20 +884,20 @@
                         </div>
                       </div>
                     </div>
-                    <!-- Transaction Item Details Modal End --> 
-                    
+                    <!-- Transaction Item Details Modal End -->
+
                     <!-- View all Link
                     =============================== -->
                     <div class="text-center mt-4"><a href="transactions.html" class="btn-link text-3">View all<i class="fas fa-chevron-right text-2 ml-2"></i></a></div>
-                    <!-- View all Link End --> 
-                    
+                    <!-- View all Link End -->
+
                   </div>
-                  <!-- Recent Activity End --> 
+                  <!-- Recent Activity End -->
                 </div>
-                <!-- Middle Panel End --> 
+                <!-- Middle Panel End -->
               </div>
           </div>
-          
+
           <!-- Footer
           ============================================= -->
           <footer id="footer">
@@ -1016,7 +936,7 @@
                 </div>
               </div>
           </footer>
-          <!-- Footer end --> 
+          <!-- Footer end -->
       </div>
     </main>
     <!-- page-content" -->
@@ -1024,12 +944,12 @@
   <!-- page-wrapper -->
 
 <!-- Back to Top
-============================================= --> 
-<a id="back-to-top" data-toggle="tooltip" title="Back to Top" href="javascript:void(0)"><i class="fa fa-chevron-up"></i></a> 
+============================================= -->
+<a id="back-to-top" data-toggle="tooltip" title="Back to Top" href="javascript:void(0)"><i class="fa fa-chevron-up"></i></a>
 
-<!-- Script --> 
-<script src="vendor/jquery/jquery.min.js"></script> 
-<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script> 
+<!-- Script -->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="js/theme.js"></script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -1062,17 +982,17 @@
         .addClass("active");
     }
   });
-  
+
   $("#close-sidebar").click(function() {
     $(".page-wrapper").removeClass("toggled");
   });
   $("#show-sidebar").click(function() {
     $(".page-wrapper").addClass("toggled");
   });
-  
-  
-     
-     
+
+
+
+
   });
   </script>
 </body>
